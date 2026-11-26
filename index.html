@@ -1,0 +1,90 @@
+<!doctype html>
+<!-- Website design was developed with assistance from Claude. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare two years of housing growth, gross rent and rent burden across ten Manhattan project areas, using ACS 2006–2025 estimates, excluding 2020.">
+  <title>Manhattan Housing Growth, Rent Growth, and Rent Burden · 2006–2025</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b6069'/%3E%3Cpath d='M8 24V12l8-7 8 7v12h-6v-8h-4v8z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=20261125">
+  <script defer src="vendor/d3.v7.min.js"></script>
+  <script type="module" src="js/app.mjs?v=20261125"></script>
+</head>
+<body>
+  <main class="page-shell">
+    <header>
+      <div class="eyebrow"><span class="brand-mark" aria-hidden="true"></span> MANHATTAN / HOUSING RESEARCH</div>
+      <div class="header-main">
+        <div>
+          <h1>Manhattan Housing Growth, Rent Growth, and Rent Burden</h1>
+          <p class="page-lede">New York housing debates often assume that adding housing slows rent increases, and that neighborhoods already burdened by rent face the steepest increases. This dashboard lets you check both ideas across ten Manhattan areas for any pair of years from 2006 to 2025. Choose a base year and an end year and the three views update together.</p>
+        </div>
+        <div class="source-stamp">U.S. CENSUS BUREAU<span>ACS 1-year estimates · 2006–2025</span></div>
+      </div>
+    </header>
+
+    <div id="load-status" class="load-status" role="status">Loading Manhattan data…</div>
+    <section id="dashboard" hidden aria-label="Interactive Manhattan housing dashboard">
+      <div class="controls">
+        <div class="period-block"><span class="control-caption">COMPARISON PERIOD</span><strong><span id="base-year">2006</span> <span class="period-arrow" aria-hidden="true">→</span> <span id="end-year">2025</span></strong></div>
+        <div class="year-controls">
+          <div class="year-field"><label class="control-caption" for="base-year-select">BASE YEAR</label><select id="base-year-select" aria-describedby="year-help"></select></div>
+          <span class="year-separator" aria-hidden="true">→</span>
+          <div class="year-field"><label class="control-caption" for="end-year-select">END YEAR</label><select id="end-year-select" aria-describedby="year-help"></select></div>
+          <p id="year-help">Choose a later end year · 2020 unavailable</p>
+        </div>
+        <div class="selection-controls"><span id="selection-status" aria-live="polite">All 10 areas</span><button type="button" id="clear-selection" disabled><span aria-hidden="true">↺</span> Clear selection</button></div>
+      </div>
+
+      <div class="reading-guide"><p>Hover for a second to preview details · Click to select an area and pin its details · Ctrl-click to select more</p></div>
+
+      <div class="dashboard-grid">
+        <section class="view-panel map-panel" aria-labelledby="map-title">
+          <div class="view-heading"><span class="view-number">01</span><div><h2 id="map-title">Baseline median rent</h2><p class="view-question">Context · Where did rents start in the base year?</p><p><span class="baseline-year">2006</span> median monthly gross rent · USD</p></div></div>
+          <div class="chart-host map-host" id="map-chart"></div>
+          <div class="map-legend"><span class="legend-heading"><span class="baseline-year">2006</span> median monthly gross rent</span><svg id="map-legend" aria-label="2006 median monthly gross rent color legend in dollars"></svg></div>
+          <p class="view-footnote">The scale ends at the base year's ACS rent threshold. * marks rents reported as at least that amount.</p>
+        </section>
+
+        <div class="comparison-group">
+          <section class="view-panel" aria-labelledby="growth-title">
+            <div class="view-heading"><span class="view-number">02</span><div><h2 id="growth-title">Growth &amp; housing scale</h2><p class="view-question">RQ1 · Did faster housing growth come with slower rent growth?</p><p>Housing vs. nominal rent growth · <span class="period-label">2006 → 2025</span></p></div><div class="tier-switch"><span class="legend-caption" id="tier-caption">Y max</span><div class="tier-buttons" role="radiogroup" aria-labelledby="tier-caption"><button type="button" role="radio" data-tier="80" aria-checked="false">80%</button><button type="button" role="radio" data-tier="160" aria-checked="true">160%</button></div></div></div>
+            <div class="legend-block">
+              <div>
+                <span class="legend-caption" id="group-caption">Bubble color: area group, north → south</span>
+                <ul class="group-legend" aria-labelledby="group-caption">
+                  <li data-group="1"><span class="group-codes">01–04</span> Upper Manhattan</li>
+                  <li data-group="2"><span class="group-codes">05–06</span> Upper East &amp; West Sides</li>
+                  <li data-group="3"><span class="group-codes">07–08</span> Midtown</li>
+                  <li data-group="4"><span class="group-codes">09–10</span> Lower Manhattan</li>
+                </ul>
+              </div>
+            </div>
+            <div class="chart-host" id="growth-chart"></div>
+            <div class="size-legend"><span class="legend-heading">Bubble area ∝ housing units · <span class="endpoint-year">2025</span></span><svg id="size-legend" aria-label="Bubble areas are proportional to total housing units: 50,000, 100,000 and 150,000"></svg></div>
+            <p class="view-footnote">Right = faster housing growth; higher = faster rent growth. X runs −40% to 60%. Use Y max to switch between <span class="axis-tier">80%</span> and <span class="axis-tier">160%</span>.</p>
+          </section>
+
+          <section class="view-panel slope-panel" aria-labelledby="burden-title">
+            <div class="view-heading"><span class="view-number">03</span><div><h2 id="burden-title">Baseline rent burden &amp; rent growth</h2><p class="view-question">RQ2 · Did higher-burden areas later see faster rent growth?</p></div></div>
+            <div class="legend-block">
+              <span class="legend-caption" id="rank-caption">Line color: growth rank vs. burden rank</span>
+              <div class="rank-legend" role="group" aria-labelledby="rank-caption"><span data-rank-change="higher">Right ranks higher</span><span data-rank-change="lower">Right ranks lower</span><span data-rank-change="close">Within 1 rank</span></div>
+            </div>
+            <div class="slope-headings"><span>Rent burden · <span class="baseline-year">2006</span></span><span>Rent growth · <span class="period-label">2006 → 2025</span></span></div>
+            <div class="chart-host" id="burden-chart"></div>
+            <p class="view-footnote">Among households with a computable ratio, rent burden is the share spending ≥30% of income on gross rent.</p>
+          </section>
+        </div>
+      </div>
+
+      <footer class="page-footer">
+        <div class="bound-footnote"><p><strong>Rent-growth values.</strong> A star after a bubble’s area number marks a bound or an estimate. In the rank chart, a star after the growth value marks a bound, and a star after the area name marks an estimate using both years’ ACS rent thresholds.</p><p>Source PUMAs are paired to ten project areas without boundary adjustment. The map retains 2000 boundaries.</p></div>
+      </footer>
+    </section>
+    <noscript>This dashboard requires JavaScript to display its coordinated D3 views.</noscript>
+  </main>
+  <aside id="detail-tooltip" class="detail-tooltip" role="tooltip" hidden></aside>
+</body>
+</html>

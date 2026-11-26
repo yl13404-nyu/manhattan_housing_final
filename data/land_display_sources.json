@@ -1,0 +1,180 @@
+{
+  "source_url": "https://usa.ipums.org/usa/resources/volii/shapefiles/ipums_puma_2000.zip",
+  "source_archive_sha256": "3a71f638109a089a4745d20eac0fef8a6723679ebe0903cf54f3886a9fd1371c",
+  "geometry_vintage": 2000,
+  "tiger_basis": 2000,
+  "applicable_acs_years": [
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011
+  ],
+  "version_reference": "https://www.census.gov/content/dam/Census/library/publications/2020/acs/acs_pums_handbook_2020_ch02.pdf",
+  "method": "Select ten historical PUMAs, convert the supplied Albers CRS to WGS84, round coordinates to six decimals, retain only the largest land component of PUMA 03810 to omit detached southern and western islands, preserve other PUMAs and ACS values.",
+  "output": "Week_7_Submission/data/manhattan_puma_2000_land.geojson",
+  "output_sha256": "d53a690efb1bd1e026924202d502353c4367cb0abf2653fe1ba52b2b9a7f1136",
+  "features": [
+    {
+      "puma": "03801",
+      "parts": 2,
+      "omitted": 0,
+      "spherical_area": 1.991731479164636e-7,
+      "bounds": [
+        [
+          -73.963478,
+          40.81756
+        ],
+        [
+          -73.907005,
+          40.879278
+        ]
+      ]
+    },
+    {
+      "puma": "03802",
+      "parts": 1,
+      "omitted": 0,
+      "spherical_area": 8.510814882161347e-8,
+      "bounds": [
+        [
+          -73.970056,
+          40.798125
+        ],
+        [
+          -73.938771,
+          40.834666
+        ]
+      ]
+    },
+    {
+      "puma": "03803",
+      "parts": 1,
+      "omitted": 0,
+      "spherical_area": 9.222248116609193e-8,
+      "bounds": [
+        [
+          -73.959659,
+          40.796887
+        ],
+        [
+          -73.930653,
+          40.842477
+        ]
+      ]
+    },
+    {
+      "puma": "03804",
+      "parts": 2,
+      "omitted": 0,
+      "spherical_area": 1.4941679216629865e-7,
+      "bounds": [
+        [
+          -73.955854,
+          40.780396
+        ],
+        [
+          -73.914677,
+          40.81958
+        ]
+      ]
+    },
+    {
+      "puma": "03805",
+      "parts": 3,
+      "omitted": 0,
+      "spherical_area": 1.2966956460981515e-7,
+      "bounds": [
+        [
+          -73.973251,
+          40.751369
+        ],
+        [
+          -73.937791,
+          40.78795
+        ]
+      ]
+    },
+    {
+      "puma": "03806",
+      "parts": 1,
+      "omitted": 0,
+      "spherical_area": 2.1719852558166516e-7,
+      "bounds": [
+        [
+          -73.994278,
+          40.764389
+        ],
+        [
+          -73.949281,
+          40.818091
+        ]
+      ]
+    },
+    {
+      "puma": "03807",
+      "parts": 1,
+      "omitted": 0,
+      "spherical_area": 1.802883980159503e-7,
+      "bounds": [
+        [
+          -74.008815,
+          40.734928
+        ],
+        [
+          -73.969966,
+          40.77211
+        ]
+      ]
+    },
+    {
+      "puma": "03808",
+      "parts": 1,
+      "omitted": 0,
+      "spherical_area": 1.0352337838088941e-7,
+      "bounds": [
+        [
+          -73.989929,
+          40.727314
+        ],
+        [
+          -73.958494,
+          40.762979
+        ]
+      ]
+    },
+    {
+      "puma": "03809",
+      "parts": 1,
+      "omitted": 0,
+      "spherical_area": 1.1122995265762972e-7,
+      "bounds": [
+        [
+          -74.005281,
+          40.708509
+        ],
+        [
+          -73.971612,
+          40.734928
+        ]
+      ]
+    },
+    {
+      "puma": "03810",
+      "parts": 1,
+      "omitted": 13,
+      "spherical_area": 1.7654610429819115e-7,
+      "bounds": [
+        [
+          -74.019698,
+          40.700545
+        ],
+        [
+          -73.989447,
+          40.774265
+        ]
+      ]
+    }
+  ]
+}

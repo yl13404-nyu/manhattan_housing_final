@@ -1,0 +1,609 @@
+{
+  "annual": {
+    "rows": 190,
+    "primary_key": [
+      "year",
+      "puma"
+    ],
+    "fields": [
+      {
+        "name": "year",
+        "type": "integer",
+        "unit": "year",
+        "definition": "ACS 1-year reference year, 2006-2025 excluding 2020."
+      },
+      {
+        "name": "puma",
+        "type": "string",
+        "unit": "identifier",
+        "definition": "Stable project display ID 03801-03810. From 2022 this is a name/district pairing alias; source_puma retains the official code."
+      },
+      {
+        "name": "puma_short",
+        "type": "string",
+        "unit": "label",
+        "definition": "Two-character shorthand 01-10; use puma for joins"
+      },
+      {
+        "name": "state_fips",
+        "type": "string",
+        "unit": "identifier",
+        "definition": "36 = New York"
+      },
+      {
+        "name": "county_fips",
+        "type": "string",
+        "unit": "identifier",
+        "definition": "061 = New York County (Manhattan)"
+      },
+      {
+        "name": "borough",
+        "type": "string",
+        "unit": "category",
+        "definition": "Manhattan"
+      },
+      {
+        "name": "boundary_vintage",
+        "type": "integer",
+        "unit": "year",
+        "definition": "Actual annual source PUMA boundary vintage. No harmonization."
+      },
+      {
+        "name": "map_geoid",
+        "type": "string",
+        "unit": "identifier",
+        "definition": "36 + puma; join GeoJSON properties.GEOID or feature.id"
+      },
+      {
+        "name": "acs_geoid",
+        "type": "string",
+        "unit": "identifier",
+        "definition": "Exact source ACS GEO_ID; prefix changes with source format/vintage."
+      },
+      {
+        "name": "region",
+        "type": "string",
+        "unit": "category",
+        "definition": "Project groups: Uptown 03801-03806; Midtown 03807-03808; Downtown 03809-03810"
+      },
+      {
+        "name": "stusab",
+        "type": "string",
+        "unit": "identifier",
+        "definition": "NY; normalized to upper case"
+      },
+      {
+        "name": "logrecno",
+        "type": "string|null",
+        "unit": "identifier",
+        "definition": "Seven-character annual geography record number; only join within its own year"
+      },
+      {
+        "name": "housing_units",
+        "type": "integer|null",
+        "unit": "housing units",
+        "definition": "B25001_001E; occupied plus vacant housing stock, not new construction"
+      },
+      {
+        "name": "housing_units_moe90",
+        "type": "integer|null",
+        "unit": "housing units",
+        "definition": "Published 90% ACS margin of error for housing_units; not a confidence interval for a derived growth/ratio."
+      },
+      {
+        "name": "median_gross_rent",
+        "type": "integer|null",
+        "unit": "nominal USD per month",
+        "definition": "B25064_001E; annual current-dollar median gross rent, including applicable utilities"
+      },
+      {
+        "name": "median_gross_rent_moe90",
+        "type": "integer|null",
+        "unit": "nominal USD per month",
+        "definition": "Published 90% ACS margin of error for median_gross_rent; not a confidence interval for a derived growth/ratio."
+      },
+      {
+        "name": "median_gross_rent_status",
+        "type": "string",
+        "unit": "status",
+        "definition": "ok, top_coded_ge_2000 (through 2014), top_coded_ge_3500 (2015+), bottom_coded_le_100, or original missing/special-code reason."
+      },
+      {
+        "name": "median_gross_rent_lower_bound",
+        "type": "integer|null",
+        "unit": "nominal USD per month",
+        "definition": "Exact rent, or 2000/3500 for the applicable annual top code. Not a confidence bound."
+      },
+      {
+        "name": "median_gross_rent_upper_bound",
+        "type": "integer|null",
+        "unit": "nominal USD per month",
+        "definition": "Exact rent when available; null means no finite published upper bound for a top-coded median. Not a confidence bound"
+      },
+      {
+        "name": "median_gross_rent_display",
+        "type": "string",
+        "unit": "display",
+        "definition": "Exact dollar number, >=2000 (through 2014), >=3500 (2015+), <=100, or empty when unavailable."
+      },
+      {
+        "name": "cash_rent_households",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "B25070_001E; cash-rent renter-occupied housing units, including Not computed"
+      },
+      {
+        "name": "cash_rent_households_moe90",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "Published 90% ACS margin of error for cash_rent_households; not a confidence interval for a derived growth/ratio."
+      },
+      {
+        "name": "rent_not_computed_households",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "B25070_011E; retained, never treated as unburdened"
+      },
+      {
+        "name": "rent_not_computed_households_moe90",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "Published 90% ACS margin of error for rent_not_computed_households; not a confidence interval for a derived growth/ratio."
+      },
+      {
+        "name": "rent_not_computed_pct",
+        "type": "number|null",
+        "unit": "percent",
+        "definition": "100 * B25070_011E / B25070_001E"
+      },
+      {
+        "name": "rent_computable_households",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "B25070_001E - B25070_011E; rent-burden denominator"
+      },
+      {
+        "name": "rent_burdened_households",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "Sum B25070_007E through B25070_010E; gross rent at least 30% of income"
+      },
+      {
+        "name": "rent_burden_pct",
+        "type": "number|null",
+        "unit": "percent",
+        "definition": "100 * rent_burdened_households / rent_computable_households"
+      },
+      {
+        "name": "rent_burden_status",
+        "type": "string",
+        "unit": "status",
+        "definition": "ok, missing_inputs or zero_denominator"
+      },
+      {
+        "name": "data_complete",
+        "type": "boolean",
+        "unit": "status",
+        "definition": "All 13 estimates are exact numeric values and burden ratio available; comparison also requires nonzero growth bases. Censored rent rows remain in both tables with bounds. MOE availability is recorded separately in data_flags"
+      },
+      {
+        "name": "data_flags",
+        "type": "string",
+        "unit": "status",
+        "definition": "Pipe-separated unavailable-cell/derived-value reasons; empty string means no flags"
+      },
+      {
+        "name": "source_puma",
+        "type": "string",
+        "unit": "identifier/metadata",
+        "definition": "Five-character official PUMA code in the annual source; retain leading zero."
+      },
+      {
+        "name": "source_puma_name",
+        "type": "string",
+        "unit": "identifier/metadata",
+        "definition": "Official annual source geography name."
+      },
+      {
+        "name": "source_boundary_vintage",
+        "type": "integer",
+        "unit": "year",
+        "definition": "Actual source PUMA vintage: 2000 through 2011, 2010 in 2012-2021, 2020 from 2022."
+      },
+      {
+        "name": "map_boundary_vintage",
+        "type": "integer",
+        "unit": "year",
+        "definition": "2000; historical map key only."
+      },
+      {
+        "name": "geography_alignment",
+        "type": "string",
+        "unit": "identifier/metadata",
+        "definition": "Pairing policy only. No statistical or spatial boundary adjustment is performed."
+      }
+    ]
+  },
+  "comparisons": {
+    "rows": 1710,
+    "primary_key": [
+      "base_year",
+      "end_year",
+      "puma"
+    ],
+    "fields": [
+      {
+        "name": "base_year",
+        "type": "integer",
+        "unit": "year",
+        "definition": "Any available year from 2006 through 2024 excluding 2020. Only compare to later available years."
+      },
+      {
+        "name": "end_year",
+        "type": "integer",
+        "unit": "year",
+        "definition": "Available endpoint year strictly greater than base_year, through 2025, excluding 2020."
+      },
+      {
+        "name": "years_elapsed",
+        "type": "integer",
+        "unit": "years",
+        "definition": "end_year - base_year; calendar-year distance, not number of observations. Growth is cumulative, not annualized."
+      },
+      {
+        "name": "puma",
+        "type": "string",
+        "unit": "identifier",
+        "definition": "Stable project display ID 03801-03810. From 2022 this is a name/district pairing alias; source_puma retains the official code."
+      },
+      {
+        "name": "puma_short",
+        "type": "string",
+        "unit": "label",
+        "definition": "Two-character shorthand 01-10; use puma for joins"
+      },
+      {
+        "name": "state_fips",
+        "type": "string",
+        "unit": "identifier",
+        "definition": "36 = New York"
+      },
+      {
+        "name": "county_fips",
+        "type": "string",
+        "unit": "identifier",
+        "definition": "061 = New York County (Manhattan)"
+      },
+      {
+        "name": "borough",
+        "type": "string",
+        "unit": "category",
+        "definition": "Manhattan"
+      },
+      {
+        "name": "boundary_vintage",
+        "type": "integer",
+        "unit": "year",
+        "definition": "Base-year source boundary vintage; see source_boundary_vintage_end for endpoint."
+      },
+      {
+        "name": "map_geoid",
+        "type": "string",
+        "unit": "identifier",
+        "definition": "36 + puma; join GeoJSON properties.GEOID or feature.id"
+      },
+      {
+        "name": "acs_geoid",
+        "type": "string",
+        "unit": "identifier",
+        "definition": "Base-year ACS GEO_ID; endpoint code is in source_puma_end."
+      },
+      {
+        "name": "region",
+        "type": "string",
+        "unit": "category",
+        "definition": "Project groups: Uptown 03801-03806; Midtown 03807-03808; Downtown 03809-03810"
+      },
+      {
+        "name": "housing_units_base",
+        "type": "integer|null",
+        "unit": "housing units",
+        "definition": "B25001_001E; occupied plus vacant housing stock, not new construction At base_year."
+      },
+      {
+        "name": "housing_units_end",
+        "type": "integer|null",
+        "unit": "housing units",
+        "definition": "B25001_001E; occupied plus vacant housing stock, not new construction At end_year."
+      },
+      {
+        "name": "housing_units_moe90_base",
+        "type": "integer|null",
+        "unit": "housing units",
+        "definition": "Published 90% ACS margin of error for housing_units; not a confidence interval for a derived growth/ratio. At base_year."
+      },
+      {
+        "name": "housing_units_moe90_end",
+        "type": "integer|null",
+        "unit": "housing units",
+        "definition": "Published 90% ACS margin of error for housing_units; not a confidence interval for a derived growth/ratio. At end_year."
+      },
+      {
+        "name": "median_gross_rent_base",
+        "type": "integer|null",
+        "unit": "nominal USD per month",
+        "definition": "B25064_001E; annual current-dollar median gross rent, including applicable utilities At base_year."
+      },
+      {
+        "name": "median_gross_rent_end",
+        "type": "integer|null",
+        "unit": "nominal USD per month",
+        "definition": "B25064_001E; annual current-dollar median gross rent, including applicable utilities At end_year."
+      },
+      {
+        "name": "median_gross_rent_moe90_base",
+        "type": "integer|null",
+        "unit": "nominal USD per month",
+        "definition": "Published 90% ACS margin of error for median_gross_rent; not a confidence interval for a derived growth/ratio. At base_year."
+      },
+      {
+        "name": "median_gross_rent_moe90_end",
+        "type": "integer|null",
+        "unit": "nominal USD per month",
+        "definition": "Published 90% ACS margin of error for median_gross_rent; not a confidence interval for a derived growth/ratio. At end_year."
+      },
+      {
+        "name": "median_gross_rent_status_base",
+        "type": "string",
+        "unit": "status",
+        "definition": "ok, top_coded_ge_2000 (through 2014), top_coded_ge_3500 (2015+), bottom_coded_le_100, or original missing/special-code reason."
+      },
+      {
+        "name": "median_gross_rent_status_end",
+        "type": "string",
+        "unit": "status",
+        "definition": "ok, top_coded_ge_2000 (through 2014), top_coded_ge_3500 (2015+), bottom_coded_le_100, or original missing/special-code reason."
+      },
+      {
+        "name": "median_gross_rent_lower_bound_base",
+        "type": "integer|null",
+        "unit": "nominal USD per month",
+        "definition": "Exact rent, or 2000/3500 for the applicable annual top code. Not a confidence bound."
+      },
+      {
+        "name": "median_gross_rent_lower_bound_end",
+        "type": "integer|null",
+        "unit": "nominal USD per month",
+        "definition": "Exact rent, or 2000/3500 for the applicable annual top code. Not a confidence bound."
+      },
+      {
+        "name": "median_gross_rent_upper_bound_base",
+        "type": "integer|null",
+        "unit": "nominal USD per month",
+        "definition": "Exact rent when available; null means no finite published upper bound for a top-coded median. Not a confidence bound At base_year."
+      },
+      {
+        "name": "median_gross_rent_upper_bound_end",
+        "type": "integer|null",
+        "unit": "nominal USD per month",
+        "definition": "Exact rent when available; null means no finite published upper bound for a top-coded median. Not a confidence bound At end_year."
+      },
+      {
+        "name": "median_gross_rent_display_base",
+        "type": "string",
+        "unit": "display",
+        "definition": "Exact dollar number, >=2000 (through 2014), >=3500 (2015+), <=100, or empty when unavailable."
+      },
+      {
+        "name": "median_gross_rent_display_end",
+        "type": "string",
+        "unit": "display",
+        "definition": "Exact dollar number, >=2000 (through 2014), >=3500 (2015+), <=100, or empty when unavailable."
+      },
+      {
+        "name": "cash_rent_households_base",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "B25070_001E; cash-rent renter-occupied housing units, including Not computed At base_year."
+      },
+      {
+        "name": "cash_rent_households_end",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "B25070_001E; cash-rent renter-occupied housing units, including Not computed At end_year."
+      },
+      {
+        "name": "rent_not_computed_households_base",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "B25070_011E; retained, never treated as unburdened At base_year."
+      },
+      {
+        "name": "rent_not_computed_households_end",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "B25070_011E; retained, never treated as unburdened At end_year."
+      },
+      {
+        "name": "rent_not_computed_pct_base",
+        "type": "number|null",
+        "unit": "percent",
+        "definition": "100 * B25070_011E / B25070_001E At base_year."
+      },
+      {
+        "name": "rent_not_computed_pct_end",
+        "type": "number|null",
+        "unit": "percent",
+        "definition": "100 * B25070_011E / B25070_001E At end_year."
+      },
+      {
+        "name": "rent_computable_households_base",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "B25070_001E - B25070_011E; rent-burden denominator At base_year."
+      },
+      {
+        "name": "rent_computable_households_end",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "B25070_001E - B25070_011E; rent-burden denominator At end_year."
+      },
+      {
+        "name": "rent_burdened_households_base",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "Sum B25070_007E through B25070_010E; gross rent at least 30% of income At base_year."
+      },
+      {
+        "name": "rent_burdened_households_end",
+        "type": "integer|null",
+        "unit": "renter households",
+        "definition": "Sum B25070_007E through B25070_010E; gross rent at least 30% of income At end_year."
+      },
+      {
+        "name": "rent_burden_pct_base",
+        "type": "number|null",
+        "unit": "percent",
+        "definition": "100 * rent_burdened_households / rent_computable_households At base_year."
+      },
+      {
+        "name": "rent_burden_pct_end",
+        "type": "number|null",
+        "unit": "percent",
+        "definition": "100 * rent_burdened_households / rent_computable_households At end_year."
+      },
+      {
+        "name": "housing_units_change",
+        "type": "integer|null",
+        "unit": "housing units",
+        "definition": "housing_units_end - housing_units_base; net stock estimate difference"
+      },
+      {
+        "name": "housing_growth_pct",
+        "type": "number|null",
+        "unit": "percent",
+        "definition": "100 * (housing_units_end - housing_units_base) / housing_units_base"
+      },
+      {
+        "name": "median_gross_rent_change_nominal_usd",
+        "type": "integer|null",
+        "unit": "nominal USD per month",
+        "definition": "median_gross_rent_end - median_gross_rent_base"
+      },
+      {
+        "name": "rent_growth_nominal_pct",
+        "type": "number|null",
+        "unit": "percent",
+        "definition": "100 * (median_gross_rent_end - median_gross_rent_base) / median_gross_rent_base"
+      },
+      {
+        "name": "rent_growth_nominal_pct_lower_bound",
+        "type": "number|null",
+        "unit": "percent",
+        "definition": "100 * (rent_end_lower_bound / rent_base_upper_bound - 1); equals exact growth when both rents are exact. Bound from top/bottom coding, not a confidence limit"
+      },
+      {
+        "name": "rent_growth_nominal_pct_upper_bound",
+        "type": "number|null",
+        "unit": "percent",
+        "definition": "100 * (rent_end_upper_bound / rent_base_lower_bound - 1); null means no finite computable bound. Not a confidence limit"
+      },
+      {
+        "name": "rent_growth_status",
+        "type": "string",
+        "unit": "status",
+        "definition": "exact, lower_bound, upper_bound, interval, unavailable; never draw a lower bound as an unqualified exact point"
+      },
+      {
+        "name": "rent_burden_change_pp",
+        "type": "number|null",
+        "unit": "percentage points",
+        "definition": "rent_burden_pct_end - rent_burden_pct_base; not a percentage growth rate"
+      },
+      {
+        "name": "data_complete",
+        "type": "boolean",
+        "unit": "status",
+        "definition": "All 13 estimates are exact numeric values and burden ratio available; comparison also requires nonzero growth bases. Censored rent rows remain in both tables with bounds. MOE availability is recorded separately in data_flags"
+      },
+      {
+        "name": "data_flags",
+        "type": "string",
+        "unit": "status",
+        "definition": "Pipe-separated unavailable-cell/derived-value reasons; empty string means no flags"
+      },
+      {
+        "name": "source_puma_base",
+        "type": "string",
+        "unit": "identifier/metadata",
+        "definition": "Official base-year PUMA code."
+      },
+      {
+        "name": "source_puma_end",
+        "type": "string",
+        "unit": "identifier/metadata",
+        "definition": "Official endpoint-year PUMA code."
+      },
+      {
+        "name": "source_puma_name_end",
+        "type": "string",
+        "unit": "identifier/metadata",
+        "definition": "Official endpoint-year PUMA name."
+      },
+      {
+        "name": "source_boundary_vintage_base",
+        "type": "integer",
+        "unit": "year",
+        "definition": "Actual base-year source vintage."
+      },
+      {
+        "name": "source_boundary_vintage_end",
+        "type": "integer",
+        "unit": "year",
+        "definition": "Actual endpoint source vintage."
+      },
+      {
+        "name": "map_boundary_vintage",
+        "type": "integer",
+        "unit": "year",
+        "definition": "2000; historical map key only."
+      },
+      {
+        "name": "geography_alignment",
+        "type": "string",
+        "unit": "identifier/metadata",
+        "definition": "Pairing policy only. No statistical or spatial boundary adjustment is performed."
+      }
+    ]
+  },
+  "storage": {
+    "csv": "UTF-8 with BOM; unavailable numeric values are empty fields; import identifiers as text in Excel",
+    "json": "UTF-8 without BOM; identifiers are strings, numeric missing values are null",
+    "percentage_precision": "Percentages are stored on a 0-100 scale, rounded to 6 decimal places. Do not multiply by 100 again.",
+    "uncertainty": "Published input MOEs are retained. Derived burden/growth MOEs are not calculated; do not reuse input MOEs as derived uncertainty."
+  },
+  "geography_policy": "User-requested: ignore boundary changes. Pair source codes/names to ten project IDs; do not interpolate, reweight, or imply equal polygons. In particular pre-2022 CD4&5 pairs to 2022+ CD4; pre-2022 CD6 pairs to CD5&6.",
+  "skipped_years": [
+    2020
+  ],
+  "baseline_years": [
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

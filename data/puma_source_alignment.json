@@ -1,0 +1,1172 @@
+[
+  {
+    "year": 2012,
+    "puma": "03801",
+    "source_puma": "03801",
+    "name": "NYC-Manhattan Community District 12--Washington Heights, Inwood & Marble Hill PUMA; New York",
+    "acs_geoid": "79500US3603801",
+    "logrecno": "0000225",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2012,
+    "puma": "03802",
+    "source_puma": "03802",
+    "name": "NYC-Manhattan Community District 9--Hamilton Heights, Manhattanville & West Harlem PUMA; New York",
+    "acs_geoid": "79500US3603802",
+    "logrecno": "0000226",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2012,
+    "puma": "03803",
+    "source_puma": "03803",
+    "name": "NYC-Manhattan Community District 10--Central Harlem PUMA, New York",
+    "acs_geoid": "79500US3603803",
+    "logrecno": "0000227",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2012,
+    "puma": "03804",
+    "source_puma": "03804",
+    "name": "NYC-Manhattan Community District 11--East Harlem PUMA, New York",
+    "acs_geoid": "79500US3603804",
+    "logrecno": "0000228",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2012,
+    "puma": "03805",
+    "source_puma": "03805",
+    "name": "NYC-Manhattan Community District 8--Upper East Side PUMA, New York",
+    "acs_geoid": "79500US3603805",
+    "logrecno": "0000229",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2012,
+    "puma": "03806",
+    "source_puma": "03806",
+    "name": "NYC-Manhattan Community District 7--Upper West Side & West Side PUMA, New York",
+    "acs_geoid": "79500US3603806",
+    "logrecno": "0000230",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2012,
+    "puma": "03807",
+    "source_puma": "03807",
+    "name": "NYC-Manhattan Community District 4 & 5--Chelsea, Clinton & Midtown Business District PUMA; New York",
+    "acs_geoid": "79500US3603807",
+    "logrecno": "0000231",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2012,
+    "puma": "03808",
+    "source_puma": "03808",
+    "name": "NYC-Manhattan Community District 6--Murray Hill, Gramercy & Stuyvesant Town PUMA; New York",
+    "acs_geoid": "79500US3603808",
+    "logrecno": "0000232",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2012,
+    "puma": "03809",
+    "source_puma": "03809",
+    "name": "NYC-Manhattan Community District 3--Chinatown & Lower East Side PUMA, New York",
+    "acs_geoid": "79500US3603809",
+    "logrecno": "0000233",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2012,
+    "puma": "03810",
+    "source_puma": "03810",
+    "name": "NYC-Manhattan Community District 1 & 2--Battery Park City, Greenwich Village & Soho PUMA; New York",
+    "acs_geoid": "79500US3603810",
+    "logrecno": "0000234",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2013,
+    "puma": "03801",
+    "source_puma": "03801",
+    "name": "NYC-Manhattan Community District 12--Washington Heights, Inwood & Marble Hill PUMA; New York",
+    "acs_geoid": "79500US3603801",
+    "logrecno": "0000225",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2013,
+    "puma": "03802",
+    "source_puma": "03802",
+    "name": "NYC-Manhattan Community District 9--Hamilton Heights, Manhattanville & West Harlem PUMA; New York",
+    "acs_geoid": "79500US3603802",
+    "logrecno": "0000226",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2013,
+    "puma": "03803",
+    "source_puma": "03803",
+    "name": "NYC-Manhattan Community District 10--Central Harlem PUMA, New York",
+    "acs_geoid": "79500US3603803",
+    "logrecno": "0000227",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2013,
+    "puma": "03804",
+    "source_puma": "03804",
+    "name": "NYC-Manhattan Community District 11--East Harlem PUMA, New York",
+    "acs_geoid": "79500US3603804",
+    "logrecno": "0000228",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2013,
+    "puma": "03805",
+    "source_puma": "03805",
+    "name": "NYC-Manhattan Community District 8--Upper East Side PUMA, New York",
+    "acs_geoid": "79500US3603805",
+    "logrecno": "0000229",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2013,
+    "puma": "03806",
+    "source_puma": "03806",
+    "name": "NYC-Manhattan Community District 7--Upper West Side & West Side PUMA, New York",
+    "acs_geoid": "79500US3603806",
+    "logrecno": "0000230",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2013,
+    "puma": "03807",
+    "source_puma": "03807",
+    "name": "NYC-Manhattan Community District 4 & 5--Chelsea, Clinton & Midtown Business District PUMA; New York",
+    "acs_geoid": "79500US3603807",
+    "logrecno": "0000231",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2013,
+    "puma": "03808",
+    "source_puma": "03808",
+    "name": "NYC-Manhattan Community District 6--Murray Hill, Gramercy & Stuyvesant Town PUMA; New York",
+    "acs_geoid": "79500US3603808",
+    "logrecno": "0000232",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2013,
+    "puma": "03809",
+    "source_puma": "03809",
+    "name": "NYC-Manhattan Community District 3--Chinatown & Lower East Side PUMA, New York",
+    "acs_geoid": "79500US3603809",
+    "logrecno": "0000233",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2013,
+    "puma": "03810",
+    "source_puma": "03810",
+    "name": "NYC-Manhattan Community District 1 & 2--Battery Park City, Greenwich Village & Soho PUMA; New York",
+    "acs_geoid": "79500US3603810",
+    "logrecno": "0000234",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2014,
+    "puma": "03801",
+    "source_puma": "03801",
+    "name": "NYC-Manhattan Community District 12--Washington Heights, Inwood & Marble Hill PUMA; New York",
+    "acs_geoid": "79500US3603801",
+    "logrecno": "0000226",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2014,
+    "puma": "03802",
+    "source_puma": "03802",
+    "name": "NYC-Manhattan Community District 9--Hamilton Heights, Manhattanville & West Harlem PUMA; New York",
+    "acs_geoid": "79500US3603802",
+    "logrecno": "0000227",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2014,
+    "puma": "03803",
+    "source_puma": "03803",
+    "name": "NYC-Manhattan Community District 10--Central Harlem PUMA, New York",
+    "acs_geoid": "79500US3603803",
+    "logrecno": "0000228",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2014,
+    "puma": "03804",
+    "source_puma": "03804",
+    "name": "NYC-Manhattan Community District 11--East Harlem PUMA, New York",
+    "acs_geoid": "79500US3603804",
+    "logrecno": "0000229",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2014,
+    "puma": "03805",
+    "source_puma": "03805",
+    "name": "NYC-Manhattan Community District 8--Upper East Side PUMA, New York",
+    "acs_geoid": "79500US3603805",
+    "logrecno": "0000230",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2014,
+    "puma": "03806",
+    "source_puma": "03806",
+    "name": "NYC-Manhattan Community District 7--Upper West Side & West Side PUMA, New York",
+    "acs_geoid": "79500US3603806",
+    "logrecno": "0000231",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2014,
+    "puma": "03807",
+    "source_puma": "03807",
+    "name": "NYC-Manhattan Community District 4 & 5--Chelsea, Clinton & Midtown Business District PUMA; New York",
+    "acs_geoid": "79500US3603807",
+    "logrecno": "0000232",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2014,
+    "puma": "03808",
+    "source_puma": "03808",
+    "name": "NYC-Manhattan Community District 6--Murray Hill, Gramercy & Stuyvesant Town PUMA; New York",
+    "acs_geoid": "79500US3603808",
+    "logrecno": "0000233",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2014,
+    "puma": "03809",
+    "source_puma": "03809",
+    "name": "NYC-Manhattan Community District 3--Chinatown & Lower East Side PUMA, New York",
+    "acs_geoid": "79500US3603809",
+    "logrecno": "0000234",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2014,
+    "puma": "03810",
+    "source_puma": "03810",
+    "name": "NYC-Manhattan Community District 1 & 2--Battery Park City, Greenwich Village & Soho PUMA; New York",
+    "acs_geoid": "79500US3603810",
+    "logrecno": "0000235",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2015,
+    "puma": "03801",
+    "source_puma": "03801",
+    "name": "NYC-Manhattan Community District 12--Washington Heights, Inwood & Marble Hill PUMA; New York",
+    "acs_geoid": "79500US3603801",
+    "logrecno": "0000226",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2015,
+    "puma": "03802",
+    "source_puma": "03802",
+    "name": "NYC-Manhattan Community District 9--Hamilton Heights, Manhattanville & West Harlem PUMA; New York",
+    "acs_geoid": "79500US3603802",
+    "logrecno": "0000227",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2015,
+    "puma": "03803",
+    "source_puma": "03803",
+    "name": "NYC-Manhattan Community District 10--Central Harlem PUMA, New York",
+    "acs_geoid": "79500US3603803",
+    "logrecno": "0000228",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2015,
+    "puma": "03804",
+    "source_puma": "03804",
+    "name": "NYC-Manhattan Community District 11--East Harlem PUMA, New York",
+    "acs_geoid": "79500US3603804",
+    "logrecno": "0000229",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2015,
+    "puma": "03805",
+    "source_puma": "03805",
+    "name": "NYC-Manhattan Community District 8--Upper East Side PUMA, New York",
+    "acs_geoid": "79500US3603805",
+    "logrecno": "0000230",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2015,
+    "puma": "03806",
+    "source_puma": "03806",
+    "name": "NYC-Manhattan Community District 7--Upper West Side & West Side PUMA, New York",
+    "acs_geoid": "79500US3603806",
+    "logrecno": "0000231",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2015,
+    "puma": "03807",
+    "source_puma": "03807",
+    "name": "NYC-Manhattan Community District 4 & 5--Chelsea, Clinton & Midtown Business District PUMA; New York",
+    "acs_geoid": "79500US3603807",
+    "logrecno": "0000232",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2015,
+    "puma": "03808",
+    "source_puma": "03808",
+    "name": "NYC-Manhattan Community District 6--Murray Hill, Gramercy & Stuyvesant Town PUMA; New York",
+    "acs_geoid": "79500US3603808",
+    "logrecno": "0000233",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2015,
+    "puma": "03809",
+    "source_puma": "03809",
+    "name": "NYC-Manhattan Community District 3--Chinatown & Lower East Side PUMA, New York",
+    "acs_geoid": "79500US3603809",
+    "logrecno": "0000234",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2015,
+    "puma": "03810",
+    "source_puma": "03810",
+    "name": "NYC-Manhattan Community District 1 & 2--Battery Park City, Greenwich Village & Soho PUMA; New York",
+    "acs_geoid": "79500US3603810",
+    "logrecno": "0000235",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2016,
+    "puma": "03801",
+    "source_puma": "03801",
+    "name": "NYC-Manhattan Community District 12--Washington Heights, Inwood & Marble Hill PUMA; New York",
+    "acs_geoid": "79500US3603801",
+    "logrecno": "0000226",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2016,
+    "puma": "03802",
+    "source_puma": "03802",
+    "name": "NYC-Manhattan Community District 9--Hamilton Heights, Manhattanville & West Harlem PUMA; New York",
+    "acs_geoid": "79500US3603802",
+    "logrecno": "0000227",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2016,
+    "puma": "03803",
+    "source_puma": "03803",
+    "name": "NYC-Manhattan Community District 10--Central Harlem PUMA, New York",
+    "acs_geoid": "79500US3603803",
+    "logrecno": "0000228",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2016,
+    "puma": "03804",
+    "source_puma": "03804",
+    "name": "NYC-Manhattan Community District 11--East Harlem PUMA, New York",
+    "acs_geoid": "79500US3603804",
+    "logrecno": "0000229",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2016,
+    "puma": "03805",
+    "source_puma": "03805",
+    "name": "NYC-Manhattan Community District 8--Upper East Side PUMA, New York",
+    "acs_geoid": "79500US3603805",
+    "logrecno": "0000230",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2016,
+    "puma": "03806",
+    "source_puma": "03806",
+    "name": "NYC-Manhattan Community District 7--Upper West Side & West Side PUMA, New York",
+    "acs_geoid": "79500US3603806",
+    "logrecno": "0000231",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2016,
+    "puma": "03807",
+    "source_puma": "03807",
+    "name": "NYC-Manhattan Community District 4 & 5--Chelsea, Clinton & Midtown Business District PUMA; New York",
+    "acs_geoid": "79500US3603807",
+    "logrecno": "0000232",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2016,
+    "puma": "03808",
+    "source_puma": "03808",
+    "name": "NYC-Manhattan Community District 6--Murray Hill, Gramercy & Stuyvesant Town PUMA; New York",
+    "acs_geoid": "79500US3603808",
+    "logrecno": "0000233",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2016,
+    "puma": "03809",
+    "source_puma": "03809",
+    "name": "NYC-Manhattan Community District 3--Chinatown & Lower East Side PUMA, New York",
+    "acs_geoid": "79500US3603809",
+    "logrecno": "0000234",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2016,
+    "puma": "03810",
+    "source_puma": "03810",
+    "name": "NYC-Manhattan Community District 1 & 2--Battery Park City, Greenwich Village & Soho PUMA; New York",
+    "acs_geoid": "79500US3603810",
+    "logrecno": "0000235",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2017,
+    "puma": "03801",
+    "source_puma": "03801",
+    "name": "NYC-Manhattan Community District 12--Washington Heights, Inwood & Marble Hill PUMA; New York",
+    "acs_geoid": "79500US3603801",
+    "logrecno": "0000226",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2017,
+    "puma": "03802",
+    "source_puma": "03802",
+    "name": "NYC-Manhattan Community District 9--Hamilton Heights, Manhattanville & West Harlem PUMA; New York",
+    "acs_geoid": "79500US3603802",
+    "logrecno": "0000227",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2017,
+    "puma": "03803",
+    "source_puma": "03803",
+    "name": "NYC-Manhattan Community District 10--Central Harlem PUMA, New York",
+    "acs_geoid": "79500US3603803",
+    "logrecno": "0000228",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2017,
+    "puma": "03804",
+    "source_puma": "03804",
+    "name": "NYC-Manhattan Community District 11--East Harlem PUMA, New York",
+    "acs_geoid": "79500US3603804",
+    "logrecno": "0000229",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2017,
+    "puma": "03805",
+    "source_puma": "03805",
+    "name": "NYC-Manhattan Community District 8--Upper East Side PUMA, New York",
+    "acs_geoid": "79500US3603805",
+    "logrecno": "0000230",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2017,
+    "puma": "03806",
+    "source_puma": "03806",
+    "name": "NYC-Manhattan Community District 7--Upper West Side & West Side PUMA, New York",
+    "acs_geoid": "79500US3603806",
+    "logrecno": "0000231",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2017,
+    "puma": "03807",
+    "source_puma": "03807",
+    "name": "NYC-Manhattan Community District 4 & 5--Chelsea, Clinton & Midtown Business District PUMA; New York",
+    "acs_geoid": "79500US3603807",
+    "logrecno": "0000232",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2017,
+    "puma": "03808",
+    "source_puma": "03808",
+    "name": "NYC-Manhattan Community District 6--Murray Hill, Gramercy & Stuyvesant Town PUMA; New York",
+    "acs_geoid": "79500US3603808",
+    "logrecno": "0000233",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2017,
+    "puma": "03809",
+    "source_puma": "03809",
+    "name": "NYC-Manhattan Community District 3--Chinatown & Lower East Side PUMA, New York",
+    "acs_geoid": "79500US3603809",
+    "logrecno": "0000234",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2017,
+    "puma": "03810",
+    "source_puma": "03810",
+    "name": "NYC-Manhattan Community District 1 & 2--Battery Park City, Greenwich Village & Soho PUMA; New York",
+    "acs_geoid": "79500US3603810",
+    "logrecno": "0000235",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2018,
+    "puma": "03801",
+    "source_puma": "03801",
+    "name": "NYC-Manhattan Community District 12--Washington Heights, Inwood & Marble Hill PUMA; New York",
+    "acs_geoid": "79500US3603801",
+    "logrecno": "0000226",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2018,
+    "puma": "03802",
+    "source_puma": "03802",
+    "name": "NYC-Manhattan Community District 9--Hamilton Heights, Manhattanville & West Harlem PUMA; New York",
+    "acs_geoid": "79500US3603802",
+    "logrecno": "0000227",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2018,
+    "puma": "03803",
+    "source_puma": "03803",
+    "name": "NYC-Manhattan Community District 10--Central Harlem PUMA, New York",
+    "acs_geoid": "79500US3603803",
+    "logrecno": "0000228",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2018,
+    "puma": "03804",
+    "source_puma": "03804",
+    "name": "NYC-Manhattan Community District 11--East Harlem PUMA, New York",
+    "acs_geoid": "79500US3603804",
+    "logrecno": "0000229",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2018,
+    "puma": "03805",
+    "source_puma": "03805",
+    "name": "NYC-Manhattan Community District 8--Upper East Side PUMA, New York",
+    "acs_geoid": "79500US3603805",
+    "logrecno": "0000230",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2018,
+    "puma": "03806",
+    "source_puma": "03806",
+    "name": "NYC-Manhattan Community District 7--Upper West Side & West Side PUMA, New York",
+    "acs_geoid": "79500US3603806",
+    "logrecno": "0000231",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2018,
+    "puma": "03807",
+    "source_puma": "03807",
+    "name": "NYC-Manhattan Community District 4 & 5--Chelsea, Clinton & Midtown Business District PUMA; New York",
+    "acs_geoid": "79500US3603807",
+    "logrecno": "0000232",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2018,
+    "puma": "03808",
+    "source_puma": "03808",
+    "name": "NYC-Manhattan Community District 6--Murray Hill, Gramercy & Stuyvesant Town PUMA; New York",
+    "acs_geoid": "79500US3603808",
+    "logrecno": "0000233",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2018,
+    "puma": "03809",
+    "source_puma": "03809",
+    "name": "NYC-Manhattan Community District 3--Chinatown & Lower East Side PUMA, New York",
+    "acs_geoid": "79500US3603809",
+    "logrecno": "0000234",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2018,
+    "puma": "03810",
+    "source_puma": "03810",
+    "name": "NYC-Manhattan Community District 1 & 2--Battery Park City, Greenwich Village & Soho PUMA; New York",
+    "acs_geoid": "79500US3603810",
+    "logrecno": "0000235",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2019,
+    "puma": "03801",
+    "source_puma": "03801",
+    "name": "NYC-Manhattan Community District 12--Washington Heights, Inwood & Marble Hill PUMA; New York",
+    "acs_geoid": "79500US3603801",
+    "logrecno": "0000226",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2019,
+    "puma": "03802",
+    "source_puma": "03802",
+    "name": "NYC-Manhattan Community District 9--Hamilton Heights, Manhattanville & West Harlem PUMA; New York",
+    "acs_geoid": "79500US3603802",
+    "logrecno": "0000227",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2019,
+    "puma": "03803",
+    "source_puma": "03803",
+    "name": "NYC-Manhattan Community District 10--Central Harlem PUMA, New York",
+    "acs_geoid": "79500US3603803",
+    "logrecno": "0000228",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2019,
+    "puma": "03804",
+    "source_puma": "03804",
+    "name": "NYC-Manhattan Community District 11--East Harlem PUMA, New York",
+    "acs_geoid": "79500US3603804",
+    "logrecno": "0000229",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2019,
+    "puma": "03805",
+    "source_puma": "03805",
+    "name": "NYC-Manhattan Community District 8--Upper East Side PUMA, New York",
+    "acs_geoid": "79500US3603805",
+    "logrecno": "0000230",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2019,
+    "puma": "03806",
+    "source_puma": "03806",
+    "name": "NYC-Manhattan Community District 7--Upper West Side & West Side PUMA, New York",
+    "acs_geoid": "79500US3603806",
+    "logrecno": "0000231",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2019,
+    "puma": "03807",
+    "source_puma": "03807",
+    "name": "NYC-Manhattan Community District 4 & 5--Chelsea, Clinton & Midtown Business District PUMA; New York",
+    "acs_geoid": "79500US3603807",
+    "logrecno": "0000232",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2019,
+    "puma": "03808",
+    "source_puma": "03808",
+    "name": "NYC-Manhattan Community District 6--Murray Hill, Gramercy & Stuyvesant Town PUMA; New York",
+    "acs_geoid": "79500US3603808",
+    "logrecno": "0000233",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2019,
+    "puma": "03809",
+    "source_puma": "03809",
+    "name": "NYC-Manhattan Community District 3--Chinatown & Lower East Side PUMA, New York",
+    "acs_geoid": "79500US3603809",
+    "logrecno": "0000234",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2019,
+    "puma": "03810",
+    "source_puma": "03810",
+    "name": "NYC-Manhattan Community District 1 & 2--Battery Park City, Greenwich Village & Soho PUMA; New York",
+    "acs_geoid": "79500US3603810",
+    "logrecno": "0000235",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2021,
+    "puma": "03801",
+    "source_puma": "03801",
+    "name": "NYC-Manhattan Community District 12--Washington Heights, Inwood & Marble Hill PUMA; New York",
+    "acs_geoid": "79500US3603801",
+    "logrecno": "0000225",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2021,
+    "puma": "03802",
+    "source_puma": "03802",
+    "name": "NYC-Manhattan Community District 9--Hamilton Heights, Manhattanville & West Harlem PUMA; New York",
+    "acs_geoid": "79500US3603802",
+    "logrecno": "0000226",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2021,
+    "puma": "03803",
+    "source_puma": "03803",
+    "name": "NYC-Manhattan Community District 10--Central Harlem PUMA, New York",
+    "acs_geoid": "79500US3603803",
+    "logrecno": "0000227",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2021,
+    "puma": "03804",
+    "source_puma": "03804",
+    "name": "NYC-Manhattan Community District 11--East Harlem PUMA, New York",
+    "acs_geoid": "79500US3603804",
+    "logrecno": "0000228",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2021,
+    "puma": "03805",
+    "source_puma": "03805",
+    "name": "NYC-Manhattan Community District 8--Upper East Side PUMA, New York",
+    "acs_geoid": "79500US3603805",
+    "logrecno": "0000229",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2021,
+    "puma": "03806",
+    "source_puma": "03806",
+    "name": "NYC-Manhattan Community District 7--Upper West Side & West Side PUMA, New York",
+    "acs_geoid": "79500US3603806",
+    "logrecno": "0000230",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2021,
+    "puma": "03807",
+    "source_puma": "03807",
+    "name": "NYC-Manhattan Community District 4 & 5--Chelsea, Clinton & Midtown Business District PUMA; New York",
+    "acs_geoid": "79500US3603807",
+    "logrecno": "0000231",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2021,
+    "puma": "03808",
+    "source_puma": "03808",
+    "name": "NYC-Manhattan Community District 6--Murray Hill, Gramercy & Stuyvesant Town PUMA; New York",
+    "acs_geoid": "79500US3603808",
+    "logrecno": "0000232",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2021,
+    "puma": "03809",
+    "source_puma": "03809",
+    "name": "NYC-Manhattan Community District 3--Chinatown & Lower East Side PUMA, New York",
+    "acs_geoid": "79500US3603809",
+    "logrecno": "0000233",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2021,
+    "puma": "03810",
+    "source_puma": "03810",
+    "name": "NYC-Manhattan Community District 1 & 2--Battery Park City, Greenwich Village & Soho PUMA; New York",
+    "acs_geoid": "79500US3603810",
+    "logrecno": "0000234",
+    "boundary_vintage": 2010
+  },
+  {
+    "year": 2022,
+    "puma": "03801",
+    "source_puma": "04112",
+    "name": "NYC-Manhattan Community District 12--Washington Heights & Inwood PUMA; New York",
+    "acs_geoid": "795P200US3604112",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2022,
+    "puma": "03802",
+    "source_puma": "04109",
+    "name": "NYC-Manhattan Community District 9--Morningside Heights & Hamilton Heights PUMA; New York",
+    "acs_geoid": "795P200US3604109",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2022,
+    "puma": "03803",
+    "source_puma": "04110",
+    "name": "NYC-Manhattan Community District 10--Harlem PUMA; New York",
+    "acs_geoid": "795P200US3604110",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2022,
+    "puma": "03804",
+    "source_puma": "04111",
+    "name": "NYC-Manhattan Community District 11--East Harlem PUMA; New York",
+    "acs_geoid": "795P200US3604111",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2022,
+    "puma": "03805",
+    "source_puma": "04108",
+    "name": "NYC-Manhattan Community District 8--Upper East Side & Roosevelt Island PUMA; New York",
+    "acs_geoid": "795P200US3604108",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2022,
+    "puma": "03806",
+    "source_puma": "04107",
+    "name": "NYC-Manhattan Community District 7--Upper West Side PUMA; New York",
+    "acs_geoid": "795P200US3604107",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2022,
+    "puma": "03807",
+    "source_puma": "04104",
+    "name": "NYC-Manhattan Community District 4--Chelsea & Hell's Kitchen PUMA; New York",
+    "acs_geoid": "795P200US3604104",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2022,
+    "puma": "03808",
+    "source_puma": "04165",
+    "name": "NYC-Manhattan Community Districts 5 & 6--Midtown, East Midtown, & Flatiron PUMA; New York",
+    "acs_geoid": "795P200US3604165",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2022,
+    "puma": "03809",
+    "source_puma": "04103",
+    "name": "NYC-Manhattan Community District 3--Lower East Side & Chinatown PUMA; New York",
+    "acs_geoid": "795P200US3604103",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2022,
+    "puma": "03810",
+    "source_puma": "04121",
+    "name": "NYC-Manhattan Community Districts 1 & 2--Financial District & Greenwich Village PUMA; New York",
+    "acs_geoid": "795P200US3604121",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2023,
+    "puma": "03801",
+    "source_puma": "04112",
+    "name": "NYC-Manhattan Community District 12--Washington Heights & Inwood PUMA; New York",
+    "acs_geoid": "795P200US3604112",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2023,
+    "puma": "03802",
+    "source_puma": "04109",
+    "name": "NYC-Manhattan Community District 9--Morningside Heights & Hamilton Heights PUMA; New York",
+    "acs_geoid": "795P200US3604109",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2023,
+    "puma": "03803",
+    "source_puma": "04110",
+    "name": "NYC-Manhattan Community District 10--Harlem PUMA; New York",
+    "acs_geoid": "795P200US3604110",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2023,
+    "puma": "03804",
+    "source_puma": "04111",
+    "name": "NYC-Manhattan Community District 11--East Harlem PUMA; New York",
+    "acs_geoid": "795P200US3604111",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2023,
+    "puma": "03805",
+    "source_puma": "04108",
+    "name": "NYC-Manhattan Community District 8--Upper East Side & Roosevelt Island PUMA; New York",
+    "acs_geoid": "795P200US3604108",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2023,
+    "puma": "03806",
+    "source_puma": "04107",
+    "name": "NYC-Manhattan Community District 7--Upper West Side PUMA; New York",
+    "acs_geoid": "795P200US3604107",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2023,
+    "puma": "03807",
+    "source_puma": "04104",
+    "name": "NYC-Manhattan Community District 4--Chelsea & Hell's Kitchen PUMA; New York",
+    "acs_geoid": "795P200US3604104",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2023,
+    "puma": "03808",
+    "source_puma": "04165",
+    "name": "NYC-Manhattan Community Districts 5 & 6--Midtown, East Midtown, & Flatiron PUMA; New York",
+    "acs_geoid": "795P200US3604165",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2023,
+    "puma": "03809",
+    "source_puma": "04103",
+    "name": "NYC-Manhattan Community District 3--Lower East Side & Chinatown PUMA; New York",
+    "acs_geoid": "795P200US3604103",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2023,
+    "puma": "03810",
+    "source_puma": "04121",
+    "name": "NYC-Manhattan Community Districts 1 & 2--Financial District & Greenwich Village PUMA; New York",
+    "acs_geoid": "795P200US3604121",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2024,
+    "puma": "03801",
+    "source_puma": "04112",
+    "name": "NYC-Manhattan Community District 12--Washington Heights & Inwood PUMA; New York",
+    "acs_geoid": "795P200US3604112",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2024,
+    "puma": "03802",
+    "source_puma": "04109",
+    "name": "NYC-Manhattan Community District 9--Morningside Heights & Hamilton Heights PUMA; New York",
+    "acs_geoid": "795P200US3604109",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2024,
+    "puma": "03803",
+    "source_puma": "04110",
+    "name": "NYC-Manhattan Community District 10--Harlem PUMA; New York",
+    "acs_geoid": "795P200US3604110",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2024,
+    "puma": "03804",
+    "source_puma": "04111",
+    "name": "NYC-Manhattan Community District 11--East Harlem PUMA; New York",
+    "acs_geoid": "795P200US3604111",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2024,
+    "puma": "03805",
+    "source_puma": "04108",
+    "name": "NYC-Manhattan Community District 8--Upper East Side & Roosevelt Island PUMA; New York",
+    "acs_geoid": "795P200US3604108",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2024,
+    "puma": "03806",
+    "source_puma": "04107",
+    "name": "NYC-Manhattan Community District 7--Upper West Side PUMA; New York",
+    "acs_geoid": "795P200US3604107",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2024,
+    "puma": "03807",
+    "source_puma": "04104",
+    "name": "NYC-Manhattan Community District 4--Chelsea & Hell's Kitchen PUMA; New York",
+    "acs_geoid": "795P200US3604104",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2024,
+    "puma": "03808",
+    "source_puma": "04165",
+    "name": "NYC-Manhattan Community Districts 5 & 6--Midtown, East Midtown, & Flatiron PUMA; New York",
+    "acs_geoid": "795P200US3604165",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2024,
+    "puma": "03809",
+    "source_puma": "04103",
+    "name": "NYC-Manhattan Community District 3--Lower East Side & Chinatown PUMA; New York",
+    "acs_geoid": "795P200US3604103",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2024,
+    "puma": "03810",
+    "source_puma": "04121",
+    "name": "NYC-Manhattan Community Districts 1 & 2--Financial District & Greenwich Village PUMA; New York",
+    "acs_geoid": "795P200US3604121",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2025,
+    "puma": "03801",
+    "source_puma": "04112",
+    "name": "NYC-Manhattan Community District 12--Washington Heights & Inwood PUMA; New York",
+    "acs_geoid": "795P200US3604112",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2025,
+    "puma": "03802",
+    "source_puma": "04109",
+    "name": "NYC-Manhattan Community District 9--Morningside Heights & Hamilton Heights PUMA; New York",
+    "acs_geoid": "795P200US3604109",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2025,
+    "puma": "03803",
+    "source_puma": "04110",
+    "name": "NYC-Manhattan Community District 10--Harlem PUMA; New York",
+    "acs_geoid": "795P200US3604110",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2025,
+    "puma": "03804",
+    "source_puma": "04111",
+    "name": "NYC-Manhattan Community District 11--East Harlem PUMA; New York",
+    "acs_geoid": "795P200US3604111",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2025,
+    "puma": "03805",
+    "source_puma": "04108",
+    "name": "NYC-Manhattan Community District 8--Upper East Side & Roosevelt Island PUMA; New York",
+    "acs_geoid": "795P200US3604108",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2025,
+    "puma": "03806",
+    "source_puma": "04107",
+    "name": "NYC-Manhattan Community District 7--Upper West Side PUMA; New York",
+    "acs_geoid": "795P200US3604107",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2025,
+    "puma": "03807",
+    "source_puma": "04104",
+    "name": "NYC-Manhattan Community District 4--Chelsea & Hell's Kitchen PUMA; New York",
+    "acs_geoid": "795P200US3604104",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2025,
+    "puma": "03808",
+    "source_puma": "04165",
+    "name": "NYC-Manhattan Community Districts 5 & 6--Midtown, East Midtown, & Flatiron PUMA; New York",
+    "acs_geoid": "795P200US3604165",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2025,
+    "puma": "03809",
+    "source_puma": "04103",
+    "name": "NYC-Manhattan Community District 3--Lower East Side & Chinatown PUMA; New York",
+    "acs_geoid": "795P200US3604103",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  },
+  {
+    "year": 2025,
+    "puma": "03810",
+    "source_puma": "04121",
+    "name": "NYC-Manhattan Community Districts 1 & 2--Financial District & Greenwich Village PUMA; New York",
+    "acs_geoid": "795P200US3604121",
+    "logrecno": null,
+    "boundary_vintage": 2020
+  }
+]
